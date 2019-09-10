@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>爱奇艺商场-购享娱乐</title>
+  <link type="text/css" rel="stylesheet" href="../src/css/aiqiyi.css" />
+  <link rel="shortcut icon" href="../src/img/logo-tittle.ico" type="image/icon" />
+</head>
+
+<body>
+  <div class="mengban">
+    <!-- 登录框 -->
+    <div class="login-h">
+      <b>登录</b>
+      <span class="close1">X</span>
+      <input type="text" class="phone-n" placeholder="请输入账号"><span class="hint"></span>
+      <input type="password" class="pass" placeholder="请输入密码">
+      <span class="forget">忘记密码</span>
+      <button>登录</button>
+      <p>登录即代表您同意<span>用户协议</span>和<span>隐私政策</span></p>
+      <a href="javascript:;" id="register-b">注册</a> <span class="else">手机扫码登录|其他方式登录</span>
+    </div>
+    <!-- 注册框 -->
+    <div class="register-h">
+      <b>注册</b>
+      <span class="close1">X</span>
+      <input type="text" class="phone-n" placeholder="请输入账号"><span class="hint"></span>
+      <input type="password" class="pass" placeholder="请输入密码">
+      <button>注册</button>
+      <p>注册即代表您同意<span>用户协议</span>和<span>隐私政策</span></p>
+      <span class="else">手机扫码登录|其他方式登录</span>
+    </div>
+  </div>
+  <!-- 顶部导航栏 -->
+  <div class='top'>
+    <div class='wrapper clear'>
+      <!-- 顶部导航栏左边 -->
+      <div class='top_left left'>
+        <span>欢迎来到爱奇艺商城</span>
+        <a href="#" id='login'>请登录</a>
+        <a href="#" id='register'>免费注册</a>
+      </div>
+
+      <!-- 顶部导航栏右边 -->
+      <div class='top_right right'>
+        <!-- 购物车 -->
+        <div class="left">
+          <a href="#">
+            <i class='car'></i>
+            <span>购物车<i>0</i>件</span>
+          </a>
+        </div>
+        <!--买家中心 -->
+        <div class="left">
+          <a href="#">
+            <i></i>
+            <span>买家中心</span>
+          </a>
+        </div>
+        <!-- 我的收藏 -->
+        <div class="left">
+          <a href="#">
+            <i></i>
+            <span>我的收藏</span>
+          </a>
+        </div>
+        <!-- 关注我们 -->
+        <div class="left">
+          <a href="#">
+            <i></i>
+            <span>关注我们</span><i class="lt">&lt;</i>
+            <div class="code">
+              <img src="https://www.iqiyipic.com/common/fix/myCenter_images/mall_qrcodeNew.jpg" alt="">
+            </div>
+          </a>
+        </div>
+        <!-- 商家中心 -->
+        <div class="left">
+          <a href="#">
+            <i></i>
+            <span>商家中心</i>
+          </a>
+        </div>
+        <!-- 爱奇艺首页  -->
+        <div class="left">
+          <a href="#">
+            <i></i>
+            <span>爱奇艺首页</i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- 头部广告 -->
+    <div class="header_ad clear">
+      <div class="big"><a href="#"></a></div>
+      <div class="sml"><a href="#"></a></div>
+      <span class="close">收起<i>&lt;</i></span>
+    </div>
+    <!-- 搜索栏 -->
+    <div class="wrapper top_search clear louti">
+      <!-- logo -->
+      <div class="logo">
+        <a href="#"><img src="https://www.iqiyipic.com/common/fix/myCenter_images/logo1126.png" alt=""></a>
+      </div>
+      <!-- 居中搜索框 -->
+      <div class="search">
+        <div>
+          <form action="">
+            <input type="text" placeholder="亲爱的热爱的"><input type="button" value="搜索">
+          </form>
+        </div>
+        <!-- 热搜 -->
+        <div>
+          <ul>
+            <li><a href="">漫威</a></li>
+            <li><a href="">银河补习班</a></li>
+            <li><a href="">i71定制</a></li>
+            <li><a href="">宸汐缘</a></li>
+            <li><a href="">熊本熊</a></li>
+            <li><a href="">火影忍者</a></li>
+            <li><a href="">小欢喜</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 右边小轮播图 -->
+      <div class="right search_right">
+        <ul>
+          <li class="one"><a href="#"><img
+                src="https://pic0.iqiyipic.com/common/20190506/2c22cac245414e6dab536a6664133cd7.jpg" alt="">
+              <p>
+                <b>爱奇艺i71VR</b>
+                <span>够实惠购全景</span>
+              </p>
+            </a>
+          </li>
+          <li class='two' style="display: none;"><a href="#"><img
+                src="https://pic3.iqiyipic.com/common/20180223/cb21b43a3c864f81b77f167fc5908860.jpg" alt="">
+              <p>
+                <b>原创潮流</b>
+                <span>论潮流就服</span>
+              </p>
+            </a>
+          </li>
+        </ul>
+        <div>
+          <span class="three"></span>
+          <span class="four"></span>
+        </div>
+      </div>
+    </div>
+    <!-- 二级导航 -->
+    <div class="nva clear">
+      <div class="wrapper">
+        <ul>
+          <li><a href="">首页</a></li>
+          <li><a href="">秒杀</a></li>
+          <li><a href="">京东优选</a></li>
+          <li><a href="">i71</a></li>
+          <li><a href="">Apple</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- main-->
+  <div class="main clear">
+    <!-- 轮播图 -->
+    <div class="banner">
+      <!-- 图片 -->
+      <ul class="banner_pic">
+        <li class="active"><a href="#"></a></li>
+        <li><a href="javascript:;"></a></li>
+        <li><a href="javascript:;"></a></li>
+        <li><a href="javascript:;"></a></li>
+        <li><a href="javascript:;"></a></li>
+        <li><a href="javascript:;"></a></li>
+        <li><a href="javascript:;"></a></li>
+        <li><a href="javascript:;"></a></li>
+      </ul>
+      <!-- 按钮 -->
+      <a href="javascript:;" class="prev"></a>
+      <a href="javascript:;" class="next"></a>
+      <!-- 小圆点 -->
+      <ul class="banner_dot">
+        <li class="red"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <!-- 小欢喜广告 -->
+    <div class="wrapper bottom_banner">
+      <img src="https://pic1.iqiyipic.com/common/20190807/773b2962546f4dd290b99321abed0368.jpg" alt="">
+    </div>
+    <!-- 每日精选 -->
+    <div class="wrapper handpick louti">
+      <i></i>
+      <span class="todey">每日精选</span>
+      <span class="selected"><b>|</b>SELECTED SPIKE</span>
+      <p>更多 <b>&gt;</b></p>
+      <!-- 渲染商品列表 -->
+      <div class="goodslist">
+
+      </div>
+    </div>
+    <!-- 今日特卖 -->
+    <div class="wrapper tds clear louti">
+      <i></i>
+      <span class="todey">今日特卖</span>
+      <span class="selected"><b>|</b>NEW ARRIVALS</span>
+      <div class="todaySale">
+        <ul class="today-left">
+          <li>
+            <div class="left text">
+              <p>伪钞者之陌路<br>
+                拒绝套路 正品5折起
+              </p>
+            </div>
+            <div class="left img1">
+              <img src="https://pic2.iqiyipic.com/common/20190903/354cf910ccd749d5915c45146f830492.jpg" alt="">
+            </div>
+            <div class="left img2">
+              <img src="http://pic2.iqiyipic.com/common/20181214/5d4547502f6a42c5a1baa9a987787716.jpg" alt="">
+              <p>干物妹小埋正版周边<br>
+                哥哥帮我买来！
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="left text">
+              <p>愤怒的小鸟<br>
+                最新周边 正版来袭
+              </p>
+            </div>
+            <div class="left img1">
+              <img src="https://pic2.iqiyipic.com/common/20190830/84370e0ad5254c3ba44bf4bb7b1b96a1.jpg" alt="">
+            </div>
+            <div class="left img2">
+              <img src="http://pic2.iqiyipic.com/common/20181130/079eaa82faf64e0da08bc1dcc0d96755.jpg" alt="">
+              <p>火影忍者疾风传<br>
+                经典永不谢幕
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="left text">
+              <p>我的莫格利男孩<br>
+                正版周边29元起
+              </p>
+            </div>
+            <div class="left img1">
+              <img src="https://pic2.iqiyipic.com/common/20190829/6070c100142142d58b9ba23dc8e8a48f.jpg" alt="">
+            </div>
+            <div class="left img2">
+              <img src="https://pic3.iqiyipic.com/common/20190311/c0636ddcff28471596d483258aa45622.jpg" alt="">
+              <p>惊奇队长正版周边<br>
+                4折起火爆开抢
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="left text">
+              <p>黑衣人<br>
+                正版周边首发
+              </p>
+            </div>
+            <div class="left img1">
+              <img src="https://pic1.iqiyipic.com/common/20190816/39e8828cb46e4f6b9438d3e328a5502b.jpg" alt="">
+            </div>
+            <div class="left img2">
+              <img src="http://pic1.iqiyipic.com/common/20180815/580fd71ded604b9389e1f1b94ec0171a.jpg" alt="">
+              <p>豆瓣电影TOP50精彩<br>
+                回味人生 经典必读
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="left text">
+              <p>烈火军校<br>
+                正版周边39元起
+              </p>
+            </div>
+            <div class="left img1">
+              <img src="https://pic2.iqiyipic.com/common/20190806/ec380c7f51c241dea15da1d5f27e4716.jpg" alt="">
+            </div>
+            <div class="left img2">
+              <img src="http://pic2.iqiyipic.com/common/20181130/079eaa82faf64e0da08bc1dcc0d96755.jpg" alt="">
+              <p>火影忍者疾风传<br>
+                经典永不谢幕
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="left text">
+              <p>龙珠<br>
+                龙珠正版周边
+              </p>
+            </div>
+            <div class="left img1">
+              <img src="https://pic1.iqiyipic.com/common/20190711/4b1509dbcd9e47979a0b9a6543221755.jpg" alt="">
+            </div>
+            <div class="left img2">
+              <img src="http://pic2.iqiyipic.com/common/20181214/5d4547502f6a42c5a1baa9a987787716.jpg" alt="">
+              <p>干物妹小埋正版周边<br>
+                哥哥帮我买来！
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="left text">
+              <p>海王<br>
+                海王正版周边震撼开卖
+              </p>
+            </div>
+            <div class="left img1">
+              <img src="http://pic3.iqiyipic.com/common/20190102/73bc76de8c604b76823cd7fb85db2399.jpg" alt="">
+            </div>
+            <div class="left img2">
+              <img src="http://pic2.iqiyipic.com/common/20181130/079eaa82faf64e0da08bc1dcc0d96755.jpg" alt="">
+              <p>火影忍者疾风传<br>
+                经典永不谢幕
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="left text">
+              <p>漫威英雄<br>
+                好音质 随心享
+              </p>
+            </div>
+            <div class="left img1">
+              <img src="http://pic2.iqiyipic.com/common/20181029/16c1d615fdc24558a082e938b47aebc4.jpg" alt="">
+            </div>
+            <div class="left img2">
+              <img src="https://pic3.iqiyipic.com/common/20190311/c0636ddcff28471596d483258aa45622.jpg" alt="">
+              <p>惊奇队长正版周边<br>
+                4折起火爆开抢
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 品牌精选 -->
+    <div class="wrapper brand-choice clear louti">
+      <i></i>
+      <span class="todey">品牌精选</span>
+      <span class="selected"><b>|</b>Brand selection</span>
+      <!-- 滚动广告栏 -->
+      <div class="brand-choice-d">
+        <a href="javascript:;" class="prev"></a>
+        <a href="javascript:;" class="next"></a>
+        <ul class="first-u clear">
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+          <li><img src="https://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt=""></li>
+        </ul>
+        <ul class="two-u clear">
+        </ul>
+      </div>
+     
+    </div>
+     <!-- 71原创潮牌广告栏 -->
+     <div class="wrapper last-img">
+        <img src="https://pic7.iqiyipic.com/common/20170321/276adce6380440bb8920e6c0ad0a1f93.jpg" alt="">
+      </div>
+  </div>
+  <!-- 底部 -->
+  <div class="footer">
+    <div class="wrapper louti">
+      <ul class="foot-top clear">
+        <li>
+          <img src="http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/footer_redzhengLogo.png" alt="">
+          <p>全球精选<br>
+            品质保证
+          </p>
+        </li>
+        <li>
+          <img src="http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/footer_redmoneyLogo.png" alt="">
+          <p>限时特卖<br>
+            甄选好货
+          </p>
+        </li>
+        <li>
+          <img src="http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/footer_redgoodLogo.png" alt="">
+          <p>爱奇艺电商<br>
+            口碑推荐
+          </p>
+        </li>
+        <li>
+          <img src="http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/footer_redvideoLogo.png" alt="">
+          <p>直播购物<br>
+            看好就买
+          </p>
+        </li>
+        <li>
+          <img src="http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/footer_redcollectLogo.png" alt="">
+          <p>热剧同款<br>
+            必追单品
+          </p>
+        </li>
+      </ul>
+      <div class="foot-mid clear">
+        <ul>
+          <li>
+            <div>
+              <a href="javascript:;" class="oneone">购物指南</a>
+              <a href="javascript:;">购物流程</a>
+              <a href="javascript:;">发票制度</a>
+              <a href="javascript:;">账户管理</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="javascript:;" class="oneone">支付方式</a>
+              <a href="javascript:;">支付宝</a>
+              <a href="javascript:;">微信</a>
+              <a href="javascript:;">银行卡</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="javascript:;" class="oneone">服务保障</a>
+              <a href="javascript:;">发货时间</a>
+              <a href="javascript:;">运费说明</a>
+              <a href="javascript:;">退换货规则</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="javascript:;" class="oneone">售后服务</a>
+              <a href="javascript:;">订单查询</a>
+              <a href="javascript:;">物流查询</a>
+              <a href="javascript:;">客服联系</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="javascript:;" class="oneone">服务协议</a>
+              <a href="javascript:;">服务说明</a>
+              <a href="javascript:;">使用规则</a>
+              <a href="javascript:;">信息保护</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <ul class="aiqiyicode clear">
+        <li>
+          <div class="left">
+            <img src="http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/iqiyi_mall_code.png" alt="">
+          </div>
+          <div class="left">
+            <h1>爱奇艺商城手机版</h1>
+            <p>爱奇艺商城-购享娱乐</p>
+            <p>精彩在手，说有就有</p>
+            <p>手机购物更方便</p>
+          </div>
+        </li>
+        <li>
+          <div class="left">
+            <img src="http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/iqiyi_mall_num.jpg" alt="">
+          </div>
+          <div class="left">
+            <h1>爱奇艺商城微信</h1>
+            <p>关注微信</p>
+            <p>提前了解爱奇艺商城</p>
+            <p>最新咨询</p>
+          </div>
+        </li>
+        <li>
+          <div class="left">
+            <img src="http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/iqiyi_mall_ring.jpg" alt="">
+          </div>
+          <div class="left">
+            <h1>爱奇艺商城微信(订阅号)</h1>
+            <p>关注微信订阅号</p>
+            <p>订阅是一种生活方式</p>
+            <p>发现时尚趣味</p>
+          </div>
+        </li>
+      </ul>
+      <div class="foot-bottom">
+        <div class="paizhao">
+          <p>
+            <a href="javascript:;">京网文[2015]0652-282号-1</a>
+            <a href="javascript:;"><img src="http://www.iqiyipic.com/common/fix/trust.png" alt="">中国互联网诚信联盟</a>
+            <a href="javascript:;">出版物经营许可证 </a>
+            <a href="javascript:;">信息网络传播视听节目许可证</a>
+            <a href="javascript:;">广播电视节目制作经营许可证</a>
+          </p>
+          <p>
+            <a href="javascript:;">京ICP证110636号</a>
+            <a href="javascript:;"><img src="http://www.iqiyipic.com/common/fix/records.png" alt="">经营性网站备案信息</a>
+            <a href="javascript:;">京公网安备 11010802010263号 </a>
+            <a href="javascript:;">增值电信业务经营许可证</a>
+            <a href="javascript:;">互联网药品信息服务资格证书</a>
+          </p>
+          <p>
+            <a href="javascript:;">食品许可证JY11108111598788</a>
+            <a href="javascript:;">营业执照</a>
+            <a href="javascript:;">网络文化经营许可证</a>
+          </p>
+          <p>
+            <span>公司介绍|</span>
+            <span>新闻动态|</span>
+            <span>联系方式|</span>
+            <span>招聘英才|</span>
+            <span>爱奇艺实验室|</span>
+            <span>开放平台|</span>
+            <span>爱奇艺内容合作标准|</span>
+            <span>爱奇艺号|</span>
+            <span>安全应急响应中心|</span>
+            <span>帮助中心|</span>
+            <span>侵权投诉|</span>
+          </p>
+        </div>
+        <p>
+          <a href="javascript:;"><img
+              src="http://pic4.iqiyipic.com/common/20160115/c116ab2233db4db2902f339a76e56d21.png" alt="">中国互联网举报中心</a>
+          <a href="javascript:;">网络举报APP下载</a>
+          <a href="javascript:;">网上有害信息举报专区</a>
+          <a href="javascript:;">网上暴恐有害信息举报</a>
+          <a href="javascript:;">儿童色情信息举报专区</a>
+          <a href="javascript:;">违法和不良信息举报电话：400-923-7171</a>
+          <a href="javascript:;">举报邮箱：jubao365@qiyi.com</a>
+        </p>
+        <p class="end">
+          <a href="javascript:;">反盗版和反盗链权利声明</a>
+          <a href="javascript:;">Copyright © 2018 爱奇艺 All Rights Reserved</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 楼梯 -->
+  <div id="loutinav">
+    <ul>
+        <li class="active">
+            <span>搜索栏</span>
+        </li>
+        <li >
+            <span>每日精选</span>
+        </li>
+        <li>
+            <span>今日特卖</span>
+        </li>
+        <li>
+            <span>品牌精选</span>
+        </li>
+        <li>
+            <span>底部</span>
+        </li>
+        <li class="last">回到顶部</li>
+    </ul>
+</div>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/aiqiyi.js"></script>
+</body>
+
+</html>
